@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Repositorio MARIAS</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>MARIAS</h1>
+  <p>Entre dores e silêncios, Marias se tornam voz, força e memória.</p>
+</header>
+
+<main>
+
+<!-- HISTÓRIA -->
+<section class="card amarelo">
+ <h2>MARIAS</h2>
+  <p>Tudo começou com uma proposta do professor Symon: pesquisar mulheres que marcaram a história e compartilhar suas trajetórias. O que inicialmente parecia apenas uma atividade acadêmica despertou em nosso grupo um novo olhar sobre a importância de conhecer e valorizar histórias de mulheres que, com coragem e determinação, transformaram suas próprias vidas e inspiraram tantas outras.</p>
+  <p>Durante essa jornada, a história de Maria da Penha nos sensibilizou profundamente. Sua luta por justiça e pelo enfrentamento da violência contra a mulher nos fez compreender que ela representa muito mais do que um nome: representa a força de quem encontrou coragem para transformar a própria dor em esperança e mudança. Foi dessa inspiração que surgiu o nome Marias.</p>
+  <p>Mais do que uma homenagem a Maria da Penha, Marias simboliza todas as mulheres. Cada Maria carrega uma história, uma luta, um sonho e uma voz que merece ser ouvida. Este projeto nasce para reconhecer essas trajetórias, incentivar a conscientização e lembrar que, por trás de cada mulher, existe uma história que merece ser acolhida, respeitada e jamais esquecida.</p>
+</section>
+
+<!-- MAPA DA EMPATIA -->
+<section class="card rosa">
+  <h2>MAPA DA EMPATIA</h2>
+  <img src="Mapa da empatia_projeto integrador .png">
+</section>
+
+<!-- PERSONAS -->
+<section class="card roxo">
+
+  <h2>PERSONAS</h2>
+
+  <div class="carrossel">
+
+    <button class="btn" onclick="voltar()">&#10094;</button>
+
+    <img id="personaImg" src="MARIAS.png" alt="Persona">
+
+    <button class="btn" onclick="avancar()">&#10095;</button>
+
+  </div>
+
+</section>
+<!-- LOGO -->
+<section class="card verde">
+  <h2>IDENTIDADE VISUAL</h2>
+  <img src="Logo MARIAS.png">
+  <p>A logo do projeto “Marias” foi pensada como uma borboleta, símbolo de transformação, liberdade e delicadeza, representando a força e a feminilidade presentes em cada mulher. Dentro dela, o nome “Marias” surge como essência e identidade, unindo todas essas histórias em um só significado. Assim, a borboleta não é apenas uma forma visual, mas uma representação sensível de crescimento, resiliência e da liberdade de ser e existir.</p>
+</section>
+
+<!-- FONTES -->
+<section class="card azul">
+  <h2>FONTES ESCOLHIDAS</h2>
+  <img src="4 Fontes e suas utilidades.png">
+</section>
+
+<!-- FORMULÁRIO -->
+<section class="card amarelo">
+  <h2>FORMULÁRIO</h2>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScNoRdIZDWkiKJ4iycmdfO6psUUjmivaHGVovYgzP8SnbVejQ/viewform?usp=publish-editor">Acessar formulário</a>
+  <p>Questionário aplicado para coleta de dado.</p>
+</section>
+
+<!-- GRÁFICOS -->
+<section class="card rosa">
+  <h2>GRÁFICOS</h2>
+
+  <div class="grid">
+
+    <img src="2.png">
+    <img src="3.png">
+    <img src="4.png">
+    <img src="5.png">
+    <img src="6.png">
+    <img src="7.png">
+
+  </div>
+</section>
+
+<!-- RESPOSTAS -->
+<section class="card roxo">
+  <h2>RESUMO DE RESPOSTAS ABERTAS DO FORMULARIO</h2>
+  <p>A promoção do respeito e o fomento da educação nessa área e a valorização e visibilidade de mulheres incriveis na sociedade.exemplo de resposta
+"Acho que a sociedade precisa mudar principalmente na forma de educar as pessoas, promovendo mais respeito e igualdade desde cedo. Além disso, é importante valorizar mais as conquistas das mulheres e combater o machismo em todas as áreas"</p>
+  <p>A falta de segurança e o medo constante de serem agredidas a falta de proteção nas ruas escolas entre outro lugares pois infelizmente não se da a devida visibilidade a questão da segurança da mulher. "A palavra"insegurança" para as mulheres principalmente, é como se fosse uma palavra inexistente, porque a segurança hoje em dia para as mulheres é difícil, e completamente frustante, porque nem em casa com as pessoas que confiamos nós somos acolhidas, ouvidas, e seguros de coração aberto."</p>
+  <p>Muitas mulheres não são reconhecidas pois a sociedade desde sempre foi contruida encima de um modelo patriarcal, dando mais visibilidade a homens. "se fizessem não seria levado a sério e isso inclui o clássico "fogueira" "herege" e "bruxa" se de fato fizessem elam mortas."</p>
+  
+</section>
+
+<!-- REQUISITOS -->
+<section class="card verde">
+  <h2>LEVANTAMENTO DE REQUISITOS</h2>
+  <p>O projeto consiste no desenvolvimento de um aplicativo web educativo voltado à divulgação de histórias de mulheres importantes da história, como Anne Frank, Malala Yousafzai, Marie Curie e Frida Kahlo. Além de seu caráter informativo, o sistema também contará com uma área de denúncias destinada ao apoio de mulheres em situação de risco, apresentando uma interface simples, acessível e responsiva para diferentes dispositivos.</p>
+  <p>O sistema terá três tipos de usuários: visitante, usuário cadastrado e administrador. O visitante poderá visualizar histórias, enquanto o usuário cadastrado terá acesso a conteúdos completos e ao envio de denúncias. Já o administrador será responsável por cadastrar, editar e excluir histórias, além de acompanhar as denúncias recebidas. Entre as principais funcionalidades estão o cadastro e login de usuários, navegação por menu, busca de histórias e acesso rápido à página de denúncias por meio de uma borboleta interativa.</p>
+  <p>Do ponto de vista técnico, o sistema será desenvolvido em Django com banco de dados SQLite, priorizando segurança, desempenho e proteção de dados dos usuários. O objetivo do projeto é unir educação e conscientização, valorizando histórias de mulheres inspiradoras e oferecendo também um espaço de acolhimento e apoio.</p>
+    <a href="https://maristabrasil-my.sharepoint.com/:w:/r/personal/21520220200_maristabrasil_g12_br/Documents/Projeto%20Integrador%20Web%20%E2%80%93%20Marias.docx?d=wc47297da232a4fa68b3f2e6b649b231e&csf=1&web=1&e=8O9lar">Documentpo Levantamento de Requisitos</a>
+</section>
+
+<!-- CASO DE USO -->
+<section class="card azul">
+  <h2>DIAGRAMA DE CASO DE USO</h2>
+  <img src="imagens/caso.png">
+</section>
+
+<!-- VÍDEO -->
+<section class="card rosa">
+  <h2>LOGO ANIMADA</h2>
+  <video controls>
+    <source src="logo.mp4">
+  </video>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

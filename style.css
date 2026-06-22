@@ -1,0 +1,168 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#FFFDF8;
+  color:#444;
+}
+
+/* FONTE PRINCIPAL DOS TÍTULOS */
+h1,h2{
+  font-family:'Ovo', serif;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:60px;
+}
+
+/* CARDS */
+.card{
+  max-width:900px;
+  margin:40px auto;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* CORES */
+.amarelo{ background:#FFF7CC; }
+.rosa{ background:#FFDCE5; }
+.roxo{ background:#E7D9FF; }
+.verde{ background:#DDF5E5; }
+.azul{ background:#DCEEFF; }
+
+/* IMAGENS E VÍDEOS */
+.card img,
+video{
+  width:100%;
+  border-radius:15px;
+  margin-top:10px;
+}
+
+/* GRID DOS GRÁFICOS */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+}
+
+.grid img{
+  width:100%;
+  border-radius:10px;
+}
+
+/* CARROSSEL PERSONA */
+.carrossel{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+  margin-top:20px;
+  padding:20px;
+  border-radius:25px;
+}
+
+.carrossel img{
+  width:100%;
+  max-width:600px;
+  height:400px;
+  object-fit:contain;
+  border-radius:25px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+.carrossel img{
+  transition: all 0.4s ease;
+}
+
+.btn{
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius:50%;
+  background:#fff;
+  cursor:pointer;
+  font-size:24px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+  background:#FFDCE5;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVIDADE MOBILE */
+/* ========================= */
+
+@media (max-width: 1024px){
+
+  .hero h1{
+    font-size:48px;
+  }
+
+  .grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .carrossel img{
+    max-width:500px;
+    height:350px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .hero h1{
+    font-size:38px;
+  }
+
+  .card{
+    margin:20px;
+    padding:20px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .carrossel{
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .carrossel img{
+    max-width:100%;
+    height:auto;
+  }
+
+  .btn{
+    width:45px;
+    height:45px;
+    font-size:20px;
+  }
+
+  .butterfly{
+    width:28px;
+  }
+}
+
+@media (max-width: 480px){
+
+  .hero h1{
+    font-size:30px;
+  }
+
+  .hero{
+    padding:50px 15px;
+  }
+
+  .card{
+    border-radius:15px;
+  }
+}
