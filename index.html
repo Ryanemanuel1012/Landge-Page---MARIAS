@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Repositorio MARIAS</title>
 
   <link rel="stylesheet" href="style.css">
@@ -13,120 +16,527 @@
 <body>
 
 <section class="hero">
-  <h1>
-      
-      Projeto Marias
-  </h1>
+  <h1>Projeto Marias</h1>
 </section>
+
 <main>
 
   <!-- HISTÓRIA -->
-<section class="card azul">
-  <h2>HISTÓRIA</h2>
-   <p>Tudo começou com uma proposta do professor Symon: pesquisar mulheres que marcaram a história e compartilhar suas trajetórias. O que inicialmente parecia apenas uma atividade acadêmica despertou em nosso grupo um novo olhar sobre a importância de conhecer e valorizar histórias de mulheres que, com coragem e determinação, transformaram suas próprias vidas e inspiraram tantas outras.</p>
-   <p>Durante essa jornada, a história de Maria da Penha nos sensibilizou profundamente. Sua luta por justiça e pelo enfrentamento da violência contra a mulher nos fez compreender que ela representa muito mais do que um nome: representa a força de quem encontrou coragem para transformar a própria dor em esperança e mudança. Foi dessa inspiração que surgiu o nome Marias.</p>
-   <p>Mais do que uma homenagem a Maria da Penha, Marias simboliza todas as mulheres. Cada Maria carrega uma história, uma luta, um sonho e uma voz que merece ser ouvida. Este projeto nasce para reconhecer essas trajetórias, incentivar a conscientização e lembrar que, por trás de cada mulher, existe uma história que merece ser acolhida, respeitada e jamais esquecida.</p>
- </section>
+  <section class="card azul">
+    <h2>HISTÓRIA</h2>
 
-<!--  DADOS -->
-<section class="card amarelo">
- <h2>DADOS</h2>
-  <p>A violência contra a mulher permanece como um dos maiores desafios sociais do Brasil. De acordo com o levantamento mais recente do Fórum Brasileiro de Segurança Pública, 1.568 mulheres foram vítimas de feminicídio em 2025, o maior número registrado desde que esse crime passou a ser tipificado em lei, em 2015. Isso significa que, em média, uma mulher foi assassinada por razões de gênero a cada cinco horas no país. Além disso, foram registradas 3.870 tentativas de feminicídio, um aumento de 19% em relação ao ano anterior, evidenciando que a violência contra as mulheres continua crescendo.</p>
-  <p>Esses números refletem uma realidade que vai além da violência física. Muitas mulheres têm suas dores, denúncias e relatos constantemente invalidados, desacreditados ou minimizados, o que dificulta a busca por ajuda e favorece a continuidade dos ciclos de violência. Conscientizar a sociedade, fortalecer redes de apoio e dar visibilidade às histórias e às vozes femininas são passos fundamentais para construir um futuro mais seguro, justo e igualitário para todas.</p>
+    <p>Tudo começou com uma proposta do professor Symon: pesquisar mulheres que marcaram a história e compartilhar suas trajetórias. O que inicialmente parecia apenas uma atividade acadêmica despertou em nosso grupo um novo olhar sobre a importância de conhecer e valorizar histórias de mulheres que, com coragem e determinação, transformaram suas próprias vidas e inspiraram tantas outras.</p>
+
+    <p>Durante essa jornada, a história de Maria da Penha nos sensibilizou profundamente. Sua luta por justiça e pelo enfrentamento da violência contra a mulher nos fez compreender que ela representa muito mais do que um nome: representa a força de quem encontrou coragem para transformar a própria dor em esperança e mudança. Foi dessa inspiração que surgiu o nome Marias.</p>
+
+    <p>Mais do que uma homenagem a Maria da Penha, Marias simboliza todas as mulheres. Cada Maria carrega uma história, uma luta, um sonho e uma voz que merece ser ouvida. Este projeto nasce para reconhecer essas trajetórias, incentivar a conscientização e lembrar que, por trás de cada mulher, existe uma história que merece ser acolhida, respeitada e jamais esquecida.</p>
+  </section>
+
+
+  <!-- DADOS -->
+  <section class="card amarelo">
+    <h2>DADOS</h2>
+
+    <div class="card-layout image-right">
+
+      <div class="card-text">
+        <p>A violência contra a mulher permanece como um dos maiores desafios sociais do Brasil. De acordo com o levantamento mais recente do Fórum Brasileiro de Segurança Pública, 1.568 mulheres foram vítimas de feminicídio em 2025, o maior número registrado desde que esse crime passou a ser tipificado em lei, em 2015. Isso significa que, em média, uma mulher foi assassinada por razões de gênero a cada cinco horas no país. Além disso, foram registradas 3.870 tentativas de feminicídio, um aumento de 19% em relação ao ano anterior, evidenciando que a violência contra as mulheres continua crescendo.</p>
+
+        <p>Esses números refletem uma realidade que vai além da violência física. Muitas mulheres têm suas dores, denúncias e relatos constantemente invalidados, desacreditados ou minimizados, o que dificulta a busca por ajuda e favorece a continuidade dos ciclos de violência. Conscientizar a sociedade, fortalecer redes de apoio e dar visibilidade às histórias e às vozes femininas são passos fundamentais para construir um futuro mais seguro, justo e igualitário para todas.</p>
+      </div>
+
+      <div class="card-media">
+        <img src="Dados.png" alt="Dados">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PERSONA -->
+  <section class="card roxo">
+    <h2>PERSONA</h2>
+
+    <div class="carrossel">
+
+      <button class="btn" onclick="voltar()">&#10094;</button>
+
+      <img id="personaImg" src="MARIAS.png" alt="Persona">
+
+      <button class="btn" onclick="avancar()">&#10095;</button>
+
+    </div>
+  </section>
+
+
+  <!-- MAPA DA EMPATIA -->
+  <section class="card rosa">
+    <h2>MAPA DA EMPATIA</h2>
+
+    <img src="Mapa da empatia_projeto integrador .png" alt="Mapa da empatia">
+  </section>
+
+
+  <!-- PESQUISA DE CAMPO -->
+  <section class="card amarelo">
+    <h2>PESQUISA DE CAMPO</h2>
+
+    <p>Questionário aplicado para coleta de dado.</p>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScNoRdIZDWkiKJ4iycmdfO6psUUjmivaHGVovYgzP8SnbVejQ/viewform?usp=publish-editor">
+      Acessar formulário
+    </a>
+  </section>
+
+
+  <!-- GRÁFICOS -->
+  <section class="card rosa">
+    <h2>GRÁFICOS</h2>
+
+    <p>A pesquisa de campo realizada pelo projeto Marias revelou percepções importantes sobre a valorização da história das mulheres e a permanência da violência de gênero na sociedade. Os resultados mostram que 71,4% dos participantes acreditam que as histórias das mulheres ainda não são devidamente valorizadas, enquanto 100% afirmaram já ter visto casos de violência contra a mulher na internet ou na televisão. Além disso, 71,4% reconhecem a existência de atitudes que podem normalizar essa violência. Os dados também evidenciam a importância de ampliar a representatividade feminina na história, promover o reconhecimento de mulheres que marcaram a sociedade e fortalecer espaços de apoio e conscientização. Dessa forma, a pesquisa reforça a necessidade de iniciativas como o Marias, que buscam dar visibilidade a essas histórias e contribuir para a construção de uma sociedade mais consciente.</p>
+
+    <div class="grid">
+      <img src="Painel Marias_ Dados que Revelam a Realidade.png" alt="Infográfico Marias">
+    </div>
+  </section>
+
+
+  <!-- IDENTIDADE VISUAL -->
+  <section class="hero">
+    <h1>Identidade Visual</h1>
+  </section>
+
+
+  <!-- PRIMEIRA IDENTIDADE VISUAL -->
+  <section class="card verde">
+    <h2>PRIMEIRA IDENTIDADE VISUAL</h2>
+
+    <div class="grid side-layout image-right">
+
+      <div>
+        <p>A primeira identidade visual do Marias foi pensada para transmitir acolhimento, conforto e sensibilidade. Por meio de uma estética clean, com cores suaves e tons pastéis, buscamos criar um ambiente leve e respeitoso, onde as histórias das mulheres pudessem ser conhecidas, valorizadas e preservadas.</p>
+      </div>
+
+      <img src="Cartela Pastel de Adesivos Fofos.png" alt="Primeira identidade visual">
+
+    </div>
+  </section>
+
+
+  <!-- FONTES -->
+  <section class="card azul">
+    <h2>FONTES ESCOLHIDAS</h2>
+
+    <img src="4 Fontes e suas utilidades.png" alt="Fontes escolhidas">
+  </section>
+
+
+  <!-- LOGO MARIAS -->
+  <section class="card rosa">
+    <h2>LOGO MARIAS</h2>
+
+    <div class="grid">
+
+      <div>
+        <img src="Primeira logo.png" alt="Primeira logo">
+
+        <p>Primeira versão da identidade visual do Marias.</p>
+      </div>
+
+      <div>
+        <img src="Logo MARIAS.png" alt="Logo atual">
+
+        <p>Versão atual da identidade visual do Marias.</p>
+      </div>
+
+    </div>
+
+    <p>A logo do projeto “Marias” foi pensada como uma borboleta, símbolo de transformação, liberdade e delicadeza, representando a força e a feminilidade presentes em cada mulher. Dentro dela, o nome “Marias” surge como essência e identidade, unindo todas essas histórias em um só significado. Assim, a borboleta não é apenas uma forma visual, mas uma representação sensível de crescimento, resiliência e da liberdade de ser e existir.</p>
+
+    <p>Ao longo do desenvolvimento, a identidade visual passou por transformações para representar cada vez melhor a essência do projeto. A mudança entre as versões demonstra nosso amadurecimento nas escolhas visuais e a busca por uma identidade que transmitisse com mais clareza os valores do Marias.</p>
+  </section>
+
+
+  <!-- LOGO ANIMADA -->
+  <section class="card verde">
+    <h2>LOGO ANIMADA</h2>
+
+    <video controls>
+      <source src="logo.mp4" type="video/mp4">
+      Seu navegador não suporta a reprodução de vídeo.
+    </video>
+  </section>
+
+
+  <!-- MUDANÇA NA IDENTIDADE -->
+  <section class="card azul">
+    <h2>MUDANÇA NA IDENTIDADE VISUAL</h2>
+
+    <div class="grid side-layout image-right">
+
+      <div>
+        <p>A identidade visual passou por mudanças ao longo do desenvolvimento do projeto. Essas transformações buscaram construir uma representação mais coerente com a proposta do Marias, valorizando sua essência, sua história e a mensagem que deseja transmitir.</p>
+      </div>
+
+      <img src="identidade visual.png" alt="Mudança na identidade visual">
+
+    </div>
+  </section>
+
+
+  <!-- IDENTIDADE COMO HISTÓRIA -->
+  <section class="card rosa">
+    <h2>IDENTIDADE COMO HISTÓRIA NO MARIAS</h2>
+
+    <div class="card-layout image-left">
+
+      <div class="card-text">
+        <p>A identidade visual atual do Marias nasceu da compreensão de que contar a história das mulheres também é uma forma de resistência. Inspirada em arquivos, documentos antigos e registros históricos, ela representa as marcas do tempo e as vozes que, por muito tempo, foram silenciadas ou deixadas à margem da história. Cada elemento carrega o significado de preservar memórias, reconhecer lutas e devolver às mulheres o espaço de protagonismo que sempre lhes pertenceu. Afinal, lembrar essas histórias é também impedir que sejam esquecidas novamente.</p>
+      </div>
+
+      <div class="card-media">
+        <img src="Marias_ Histórias Que Inspiram.png" alt="Identidade como história no Marias">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- BANCO DE DADOS -->
+  <section class="hero">
+    <h1>Banco de Dados</h1>
+  </section>
+
+
+  <!-- LEVANTAMENTO DE REQUISITOS -->
+  <section class="card verde">
+    <h2>LEVANTAMENTO DE REQUISITOS</h2>
+
+    <p>O projeto consiste no desenvolvimento de um aplicativo web educativo voltado à divulgação de histórias de mulheres importantes da história, como Anne Frank, Malala Yousafzai, Marie Curie e Frida Kahlo. Além de seu caráter informativo, o sistema também contará com uma área de denúncias destinada ao apoio de mulheres em situação de risco, apresentando uma interface simples, acessível e responsiva para diferentes dispositivos.</p>
+
+    <p>O sistema terá três tipos de usuários: visitante, usuário cadastrado e administrador. O visitante poderá visualizar histórias, enquanto o usuário cadastrado terá acesso a conteúdos completos e ao envio de denúncias. Já o administrador será responsável por cadastrar, editar e excluir histórias, além de acompanhar as denúncias recebidas. Entre as principais funcionalidades estão o cadastro e login de usuários, navegação por menu, busca de histórias e acesso rápido à página de denúncias por meio de uma borboleta interativa.</p>
+
+    <p>Do ponto de vista técnico, o sistema será desenvolvido em Django com banco de dados SQLite, priorizando segurança, desempenho e proteção de dados dos usuários. O objetivo do projeto é unir educação e conscientização, valorizando histórias de mulheres inspiradoras e oferecendo também um espaço de acolhimento e apoio.</p>
+
+    <a href="https://maristabrasil-my.sharepoint.com/:w:/r/personal/21520220200_maristabrasil_g12_br/Documents/Projeto%20Integrador%20Web%20%E2%80%93%20Marias.docx?d=wc47297da232a4fa68b3f2e6b649b231e&csf=1&web=1&e=8O9lar">
+      Documento Levantamento de Requisitos
+    </a>
+  </section>
+
+
+  <!-- DIAGRAMA DE CASOS DE USO -->
+  <section class="card rosa">
+    <h2>DIAGRAMA DE CASOS DE USO</h2>
+
+    <div class="grid side-layout image-right">
+
+      <div>
+        <p>O diagrama de casos de uso do projeto Marias representa as principais funcionalidades do sistema e a interação entre seus diferentes usuários. Nele, são apresentados três atores: visitante, usuário cadastrado e administrador. O visitante pode realizar seu cadastro e login, enquanto o usuário cadastrado tem acesso à visualização, pesquisa e consulta de histórias, navegação pelo menu e página de denúncias, podendo também enviar denúncias. Já o administrador é responsável pelo gerenciamento das histórias, podendo cadastrá-las, editá-las e excluí-las, além de visualizar as denúncias recebidas. Dessa forma, o diagrama permite compreender a organização e o funcionamento do sistema, demonstrando como cada perfil contribui para os objetivos do Marias.</p>
+      </div>
+
+      <img src="Diagrama.png" alt="Diagrama de casos de uso">
+
+    </div>
+  </section>
+
+
+  <!-- MODELAGEM DO BANCO -->
+  <section class="card azul">
+    <h2>MODELAGEM DO BANCO DE DADOS</h2>
+
+    <div class="card-layout image-left">
+
+      <div class="card-text">
+        <p>Espaço destinado à apresentação da modelagem do banco de dados, suas entidades, atributos e relacionamentos, demonstrando como as informações do sistema são estruturadas.</p>
+      </div>
+
+      <div class="card-media">
+        <img src="Banco de dados.png" alt="Modelagem do banco de dados">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROTOTIPAÇÃO -->
+  <section class="hero">
+    <h1>Prototipação do Projeto</h1>
+  </section>
+
+
+  <section class="card verde">
+    <h2>PROTOTIPAÇÃO DO MARIAS</h2>
+
+    <div class="grid side-layout image-right">
+
+      <div>
+        <p>Espaço destinado à apresentação do processo de prototipação e desenvolvimento da plataforma, desde a organização das primeiras telas até a construção da interface final.</p>
+
+        <p>O protótipo permitiu visualizar a estrutura do sistema, planejar a navegação e definir a disposição dos elementos, contribuindo para uma experiência simples, intuitiva e acessível.</p>
+
+        <a href="https://ryanemanuel1012.github.io/Landge-Page---MARIAS/">
+          Acessar plataforma Marias
+        </a>
+      </div>
+
+      <img src="prototipo.png" alt="Protótipo do projeto Marias">
+
+    </div>
+  </section>
+
+
+  <!-- ALÉM DA TECNOLOGIA -->
+  <section class="hero">
+    <h1>Além da Tecnologia</h1>
+  </section>
+
+
+  <!-- IMPACTO SOCIAL -->
+  <section class="card rosa">
+    <h2>O IMPACTO DO MARIAS NA SOCIEDADE</h2>
+
+    <p>O Marias busca gerar impacto social por meio da informação, da educação e da valorização das mulheres. A partir de nossas pesquisas, identificamos que a violência de gênero e o feminicídio continuam sendo problemas graves no Brasil, evidenciando a necessidade de ampliar o acesso à informação e fortalecer a conscientização social. Nesse contexto, a plataforma pretende contribuir para a transformação dessa realidade, dando visibilidade a histórias femininas que muitas vezes foram apagadas, divulgando informações sobre prevenção e enfrentamento da violência e facilitando o acesso a canais de denúncia e apoio. Mais do que reunir informações, o Marias busca incentivar o conhecimento, despertar reflexões e fortalecer uma cultura de respeito, reconhecimento e proteção às mulheres.</p>
+  </section>
+
+
+  <!-- MEMÓRIAS -->
+  <section class="card azul">
+    <h2>MEMÓRIAS QUE NÃO PODEM SER ESQUECIDAS</h2>
+
+    <p>A história das mulheres é construída por vozes, conquistas, lutas e trajetórias que merecem ser lembradas. Ao longo do tempo, muitas tiveram suas contribuições invisibilizadas, suas histórias silenciadas e seus nomes deixados à margem dos registros históricos. Preservar essas memórias é reconhecer que cada mulher que transformou sua realidade também contribuiu para transformar o mundo. O Marias nasce desse compromisso: resgatar histórias, valorizar trajetórias e garantir que essas mulheres não sejam lembradas apenas pelo que enfrentaram, mas também por tudo o que foram, construíram e representaram. Afinal, nenhuma história deveria desaparecer simplesmente porque o mundo deixou de contá-la.</p>
+  </section>
+
+
+  <!-- PROJETO COM PROPÓSITO -->
+  <section class="card verde">
+    <h2>UM PROJETO COM PROPÓSITO</h2>
+
+    <p>Mais do que desenvolver uma plataforma web, buscamos construir um espaço que una tecnologia, educação e responsabilidade social. O Marias representa nosso compromisso com a conscientização, a valorização feminina e o enfrentamento da violência contra a mulher.</p>
+
+    <p>Cada história merece ser lembrada. Cada mulher merece ser ouvida. E nenhuma forma de violência deve ser silenciada.</p>
+  </section>
+
+</main>
+
+
+<!-- SCRIPT DO CARROSSEL -->
+<script>
+
+const imagensPersona = ["MARIAS.png"];
+
+let indicePersona = 0;
+
+function atualizarPersona() {
+  const imagem = document.getElementById("personaImg");
+
+  if (imagem) {
+    imagem.src = imagensPersona[indicePersona];
+  }
+}
+
+function voltar() {
+  indicePersona =
+    (indicePersona - 1 + imagensPersona.length) % imagensPersona.length;
+
+  atualizarPersona();
+}
+
+function avancar() {
+  indicePersona =
+    (indicePersona + 1) % imagensPersona.length;
+
+  atualizarPersona();
+}
+
+</script>
+
+</body>
+</html>
+
+<!-- ================= INTEGRANTES ================= -->
+
+<section class="hero">
+  <h1>Por trás do Marias</h1>
 </section>
 
 
-<!-- MAPA DA EMPATIA -->
-<section class="card rosa">
-  <h2>MAPA DA EMPATIA</h2>
-  <img src="Mapa da empatia_projeto integrador .png">
-</section>
+<section class="card verde equipe-marias">
 
-<!-- PERSONAS -->
-<section class="card roxo">
-
-  <h2>PERSONAS</h2>
-
-  <div class="carrossel">
-
-    <button class="btn" onclick="voltar()">&#10094;</button>
-
-    <img id="personaImg" src="MARIAS.png" alt="Persona">
-
-    <button class="btn" onclick="avancar()">&#10095;</button>
-
+ <div class="equipe-final">
+    <h2>UMA IDEIA, MUITAS VOZES.</h2>
+    <p>
+      O Marias nasceu de uma ideia, mas ganhou forma por meio de três olhares, diferentes habilidades e um propósito em comum. Cada integrante contribuiu com seus conhecimentos, dedicação e perspectivas, unindo pesquisa, criatividade e desenvolvimento para transformar uma proposta em realidade. Mais do que dividir tarefas, construímos juntas um projeto que carrega um pouco de cada uma de nós e a vontade de dar visibilidade a histórias que jamais deveriam ser esquecidas.
+    </p>
   </div>
 
-</section>
-<!-- LOGO -->
-<section class="card verde">
-  <h2>IDENTIDADE VISUAL</h2>
-  <img src="Logo MARIAS.png">
-  <p>A logo do projeto “Marias” foi pensada como uma borboleta, símbolo de transformação, liberdade e delicadeza, representando a força e a feminilidade presentes em cada mulher. Dentro dela, o nome “Marias” surge como essência e identidade, unindo todas essas histórias em um só significado. Assim, a borboleta não é apenas uma forma visual, mas uma representação sensível de crescimento, resiliência e da liberdade de ser e existir.</p>
-</section>
+  <div class="equipe-intro">
+    <h2>POR TRÁS DO MARIAS</h2>
+  </div>
 
-<!-- FONTES -->
-<section class="card azul">
-  <h2>FONTES ESCOLHIDAS</h2>
-  <img src="4 Fontes e suas utilidades.png">
-</section>
+  <div class="equipe-container">
 
-<!-- FORMULÁRIO -->
-<section class="card amarelo">
-  <h2>FORMULÁRIO</h2>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLScNoRdIZDWkiKJ4iycmdfO6psUUjmivaHGVovYgzP8SnbVejQ/viewform?usp=publish-editor">Acessar formulário</a>
-  <p>Questionário aplicado para coleta de dado.</p>
-</section>
+    <!-- PARTICIPANTE 1 -->
+    <div class="integrante">
+      <div class="foto-integrante">
+        <img src="ryan.jpg" alt="Foto de Ryan">
+      </div>
+      <h3>Ryan Brito</h3>
+      <span>Idealização • Identidade Visual</span>
+      <p>
+        Responsável pela idealização inicial do Marias e pela construção de sua identidade visual, contribuindo para transformar a proposta em uma experiência visual e educativa. Ao lado de Emilly e Isabelly, participou de uma construção coletiva, na qual cada ideia, pesquisa e contribuição foi essencial para dar vida ao projeto.
+      </p>
+    </div>
 
-<!-- GRÁFICOS -->
-<section class="card rosa">
-  <h2>GRÁFICOS</h2>
+    <!-- PARTICIPANTE 2 -->
+    <div class="integrante">
+      <div class="foto-integrante">
+        <img src="emilly.jpg" alt="Foto de Emilly">
+      </div>
+      <h3>Emilly Sanches</h3>
+      <span>Pesquisa de campo • Análise de dados • Banco de dados </span>
+      <p>
+      Teve um papel fundamental na construção das bases do Marias, conduzindo pesquisas de campo, analisando os dados coletados e contribuindo para compreender melhor a realidade que o projeto busca transformar. Também foi responsável pela estruturação e desenvolvimento do banco de dados, dando suporte à organização das informações da plataforma.
+      </p>
+    </div>
 
-  <div class="grid">
-
-    <img src="Infográfico Marias_ Dados que Revelam a Realidade.png">
+    <!-- PARTICIPANTE 3 -->
+    <div class="integrante">
+      <div class="foto-integrante">
+        <img src="isabelly.jpg" alt="Foto de Isabelly">
+      </div>
+      <h3>Isabelly dos Reis</h3>
+      <span>Desenvolvimento web • Prototipagem funcional</span>
+      <p>
+        Foi responsável por transformar as ideias e planejamentos do Marias em uma plataforma funcional. Por meio do desenvolvimento com HTML, CSS e JavaScript, construiu o protótipo navegável, implementou suas funcionalidades e deu vida à estrutura digital do projeto, tornando possível visualizar e experimentar, na prática, a proposta do Marias.
+      </p>
+    </div>
 
   </div>
 </section>
-
-<!-- RESPOSTAS -->
-<section class="card roxo">
-  <h2>RESUMO DE RESPOSTAS ABERTAS DO FORMULARIO</h2>
-  <p>A promoção do respeito e o fomento da educação nessa área e a valorização e visibilidade de mulheres incriveis na sociedade.exemplo de resposta
-"Acho que a sociedade precisa mudar principalmente na forma de educar as pessoas, promovendo mais respeito e igualdade desde cedo. Além disso, é importante valorizar mais as conquistas das mulheres e combater o machismo em todas as áreas"</p>
-  <p>A falta de segurança e o medo constante de serem agredidas a falta de proteção nas ruas escolas entre outro lugares pois infelizmente não se da a devida visibilidade a questão da segurança da mulher. "A palavra"insegurança" para as mulheres principalmente, é como se fosse uma palavra inexistente, porque a segurança hoje em dia para as mulheres é difícil, e completamente frustante, porque nem em casa com as pessoas que confiamos nós somos acolhidas, ouvidas, e seguros de coração aberto."</p>
-  <p>Muitas mulheres não são reconhecidas pois a sociedade desde sempre foi contruida encima de um modelo patriarcal, dando mais visibilidade a homens. "se fizessem não seria levado a sério e isso inclui o clássico "fogueira" "herege" e "bruxa" se de fato fizessem elam mortas."</p>
+<style>
+  .equipe-marias {
+    padding: 55px 35px;
+    text-align: center;
+  }
   
+  .equipe-intro {
+    max-width: 680px;
+    margin: 0 auto 40px;
+  }
+  
+  .equipe-intro h2,
+  .equipe-final h2 {
+    letter-spacing: 2px;
+    font-size: 24px;
+  }
+  
+  .equipe-intro p,
+  .equipe-final p {
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 15px auto;
+  }
+  
+  .equipe-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .integrante {
+    padding: 15px;
+  }
+  
+  .foto-integrante {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    border-radius: 150px 150px 8px 8px;
+    margin-bottom: 20px;
+    background: #ded2c1;
+  }
+  
+  .foto-integrante img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .integrante h3 {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+  
+  .integrante span {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+  
+  .integrante p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .equipe-final {
+    margin-top: 45px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(90, 65, 50, 0.25);
+  }
+  
+  @media (max-width: 700px) {
+    .equipe-container {
+      grid-template-columns: 1fr;
+      max-width: 320px;
+    }
+  
+    .equipe-marias {
+      padding: 35px 20px;
+    }
+  }
+  </style>
+<!-- ================= AGRADECIMENTOS FINAIS ================= -->
+
+<section class="hero">
+  <h1>Com carinho, Marias</h1>
 </section>
 
-<!-- REQUISITOS -->
+<section class="card rosa">
+  <h2>AGRADECIMENTOS</h2>
+
+  <p>Primeiramente, agradecemos a todas as mulheres que foram e continuam sendo vozes ativas na luta por seus direitos, que enfrentaram barreiras, romperam silêncios e abriram caminhos para tantas outras. Suas histórias, coragem e trajetórias foram nossa inspiração e nos lembraram da importância de continuar essa luta, para que nenhuma mulher seja esquecida.
+
+Agradecemos também a todos os professores que nos acompanharam durante essa caminhada, compartilharam conhecimentos e contribuíram para nossa formação. Em especial, ao professor Symon, por nos permitir explorar novos horizontes, incentivar nossas ideias e nos mostrar que a educação também é um caminho para transformar realidades.
+
+À comunidade escolar, nosso agradecimento pela participação, disponibilidade e contribuição nas pesquisas de campo, que foram fundamentais para compreender melhor a realidade e dar sentido à construção deste projeto. Cada resposta, colaboração e troca de experiências fez parte dessa história.
+
+Por fim, agradecemos a todos que, de alguma forma, contribuíram para que o Marias deixasse de ser apenas uma ideia e se tornasse realidade.
+
+Que nossas páginas se encerrem, mas que as histórias continuem sendo escritas. Que as vozes nunca mais precisem lutar para serem ouvidas e que nenhuma mulher seja lembrada apenas pelo silêncio que lhe foi imposto, mas pela força de sua existência, por suas conquistas e por tudo aquilo que deixou no mundo.
+
+Com gratidão, equipe Marias.</p>
+
+</section>
+
 <section class="card verde">
-  <h2>LEVANTAMENTO DE REQUISITOS</h2>
-  <p>O projeto consiste no desenvolvimento de um aplicativo web educativo voltado à divulgação de histórias de mulheres importantes da história, como Anne Frank, Malala Yousafzai, Marie Curie e Frida Kahlo. Além de seu caráter informativo, o sistema também contará com uma área de denúncias destinada ao apoio de mulheres em situação de risco, apresentando uma interface simples, acessível e responsiva para diferentes dispositivos.</p>
-  <p>O sistema terá três tipos de usuários: visitante, usuário cadastrado e administrador. O visitante poderá visualizar histórias, enquanto o usuário cadastrado terá acesso a conteúdos completos e ao envio de denúncias. Já o administrador será responsável por cadastrar, editar e excluir histórias, além de acompanhar as denúncias recebidas. Entre as principais funcionalidades estão o cadastro e login de usuários, navegação por menu, busca de histórias e acesso rápido à página de denúncias por meio de uma borboleta interativa.</p>
-  <p>Do ponto de vista técnico, o sistema será desenvolvido em Django com banco de dados SQLite, priorizando segurança, desempenho e proteção de dados dos usuários. O objetivo do projeto é unir educação e conscientização, valorizando histórias de mulheres inspiradoras e oferecendo também um espaço de acolhimento e apoio.</p>
-    <a href="https://maristabrasil-my.sharepoint.com/:w:/r/personal/21520220200_maristabrasil_g12_br/Documents/Projeto%20Integrador%20Web%20%E2%80%93%20Marias.docx?d=wc47297da232a4fa68b3f2e6b649b231e&csf=1&web=1&e=8O9lar">Documento Levantamento de Requisitos</a>
+  <h2>TODA HISTÓRIA MERECE SER LEMBRADA</h2>
+
+  <p>O Marias termina esta etapa como um projeto, mas carrega uma mensagem que vai além dela: a importância de reconhecer, valorizar e preservar as histórias das mulheres.</p>
+
+  <p>Que cada voz encontre espaço, que cada trajetória seja reconhecida e que nenhuma história seja esquecida.</p>
+
+  <h2>Obrigada por fazer parte dessa história!</h2>
 </section>
 
 
-<!-- VÍDEO -->
-<section class="card rosa">
-  <h2>LOGO ANIMADA</h2>
-  <video controls>
-    <source src="logo.mp4">
-  </video>
-</section>
 
-<!-- diagrama de casa de usos-->
-<section class="card rosa">
-  <h2>DIAGRAMA DE CASOS DE USO</h2>
-  <div class="grid"></div>
 
-    <img src="Diagrama.png">
 
-  </div>
-
-</section>
 
 </main>
 
