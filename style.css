@@ -270,6 +270,29 @@ main {
   order: 2;
 }
 
+/* Ajuste adicional para o gráfico */
+.card-layout.image-right {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+.card-layout.image-right .card-text {
+  order: 1;
+  min-width: 0;
+}
+
+.card-layout.image-right .card-media {
+  order: 2;
+  min-width: 0;
+}
+
+.card-layout.image-right .card-media img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+}
+
 /* Estrutura antiga de grid lateral */
 .side-layout > div {
   min-width: 0;
